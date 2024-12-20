@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento Rectilíneo Uniforme (MRU)</title>
+    <link rel="stylesheet" href="style.css">  <!-- Vincula tu archivo CSS -->
+    <script src="script.js" defer></script>  <!-- Vincula tu archivo JS -->
+</head>
+<body>
+    <header>
+        <h1>Resolver Problemas de Movimiento Rectilíneo Uniforme (MRU)</h1>
+        <nav>
+            <ul>
+                <li><a href="#mru">Fórmula MRU</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mru">
+            <h2>Fórmula de Movimiento Rectilíneo Uniforme</h2>
+            <p>En el Movimiento Rectilíneo Uniforme, un objeto se mueve con velocidad constante a lo largo de una línea recta. La fórmula básica es:</p>
+            <p><strong>Distancia = Velocidad × Tiempo</strong></p>
+            <p>Donde:</p>
+            <ul>
+                <li><strong>Distancia (d):</strong> Es el espacio recorrido por el objeto.</li>
+                <li><strong>Velocidad (v):</strong> Es la velocidad constante del objeto.</li>
+                <li><strong>Tiempo (t):</strong> Es el tiempo que ha transcurrido.</li>
+            </ul>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario para Resolver el MRU</h2>
+            <p>Ingresa dos de los tres valores (Velocidad, Tiempo o Distancia) y calcula el valor faltante.</p>
+            <form id="mru-form">
+                <label for="velocidad">Velocidad (m/s):</label>
+                <input type="number" id="velocidad" name="velocidad">
+                <br><br>
+                
+                <label for="tiempo">Tiempo (s):</label>
+                <input type="number" id="tiempo" name="tiempo">
+                <br><br>
+
+                <label for="distancia">Distancia (m):</label>
+                <input type="number" id="distancia" name="distancia">
+                <br><br>
+
+                <input type="submit" value="Calcular">
+            </form>
+            <div id="resultado"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Calculadora de MRU</p>
+    </footer>
+</body>
+</html>
